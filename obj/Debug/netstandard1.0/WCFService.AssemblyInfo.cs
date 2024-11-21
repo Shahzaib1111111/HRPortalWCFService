@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WCFService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21e00b7a446f274d68be1a80ca2732bd17b3a974")]
 [assembly: System.Reflection.AssemblyProductAttribute("WCFService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WCFService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

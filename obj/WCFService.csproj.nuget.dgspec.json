@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\szafar\\source\\repos\\WCFSample\\WCFService.csproj": {}
+    "C:\\Users\\szafar\\source\\repos\\WCFService\\WCFService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\szafar\\source\\repos\\WCFSample\\WCFService.csproj": {
+    "C:\\Users\\szafar\\source\\repos\\WCFService\\WCFService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\szafar\\source\\repos\\WCFSample\\WCFService.csproj",
+        "projectUniqueName": "C:\\Users\\szafar\\source\\repos\\WCFService\\WCFService.csproj",
         "projectName": "WCFService",
-        "projectPath": "C:\\Users\\szafar\\source\\repos\\WCFSample\\WCFService.csproj",
+        "projectPath": "C:\\Users\\szafar\\source\\repos\\WCFService\\WCFService.csproj",
         "packagesPath": "C:\\Users\\szafar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\szafar\\source\\repos\\WCFSample\\obj\\",
+        "outputPath": "C:\\Users\\szafar\\source\\repos\\WCFService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
