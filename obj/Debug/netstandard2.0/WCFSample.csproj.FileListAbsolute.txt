@@ -1,5 +1,0 @@
-C:\Users\szafar\source\repos\WCFSample\obj\Debug\netstandard2.0\WCFSample.csproj.AssemblyReference.cache
-C:\Users\szafar\source\repos\WCFSample\obj\Debug\netstandard2.0\WCFSample.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\szafar\source\repos\WCFSample\obj\Debug\netstandard2.0\WCFSample.AssemblyInfoInputs.cache
-C:\Users\szafar\source\repos\WCFSample\obj\Debug\netstandard2.0\WCFSample.AssemblyInfo.cs
-C:\Users\szafar\source\repos\WCFSample\obj\Debug\netstandard2.0\WCFSample.csproj.CoreCompileInputs.cache

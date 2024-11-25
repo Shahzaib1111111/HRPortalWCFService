@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <Reference Include="ModelsLib">
-      <HintPath>bin\Debug\netstandard1.0\ModelsLib.dll</HintPath>
+      <HintPath>bin\Debug\netstandard2.0\ModelsLib.dll</HintPath>
     </Reference>
   </ItemGroup>
 
