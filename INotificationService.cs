@@ -8,7 +8,6 @@ namespace WCFService
     [ServiceContract]
     public interface INotificationService
     {
-
         [OperationContract]
         Task OnSalaryDisbursed(List<Employee> employees);
     }
