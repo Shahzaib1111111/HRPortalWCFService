@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -31,11 +32,18 @@ namespace WCFService
 
         private static void SendEmail(object state)
         {
-            foreach (var emp in (List<Employee>)state)
+            string logFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bin", "logfile.txt");
+
+            using (StreamWriter writer = new StreamWriter(logFilePath, append: true))
             {
-                DateTime currentDate = DateTime.Now;
-                Debug.WriteLine("{0} your salary has been disbursed on {1}", emp.Name, currentDate);
+                foreach (var emp in (List<Employee>)state)
+                {
+                    DateTime currentDate = DateTime.Now;
+                    writer.WriteLine("{0} your salary has been disbursed on {1}", emp.Name, currentDate);
+                }
             }
         }
+
+
     }
 }
