@@ -32,7 +32,7 @@ namespace WCFService
 
         private static void SendEmail(object state)
         {
-            string logFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bin", "logfile.txt");
+            string logFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "logfile.txt");
 
             using (StreamWriter writer = new StreamWriter(logFilePath, append: true))
             {
