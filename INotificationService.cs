@@ -1,7 +1,6 @@
 ﻿using ModelsLib;
 using System.Collections.Generic;
 using System.ServiceModel;
-using System.Threading.Tasks;
 
 namespace WCFService
 {
@@ -9,6 +8,6 @@ namespace WCFService
     public interface INotificationService
     {
         [OperationContract]
-        Task OnSalaryDisbursed(List<Employee> employees);
+        string OnSalaryDisbursed(List<Employee> employees);
     }
 }
